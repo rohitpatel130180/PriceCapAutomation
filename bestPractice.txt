@@ -1,0 +1,9 @@
+ Scenario: Log in to Facebook
+    Given I navigate to Facebook.com
+    When I click on login
+    And Click on Username
+    Then type in my username
+    And select the password field
+    Then enter my password
+    Then click on log in
+    Then I am logged in

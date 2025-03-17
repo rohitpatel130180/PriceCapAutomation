@@ -1,0 +1,31 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "A repo containing the basic set up for Playwright",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx playwright test --ui",
+    "headed": "npx playwright test --headed",
+    "start": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovotech/playwright-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovotech/playwright-framework/issues"
+  },
+  "homepage": "https://github.com/ovotech/playwright-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.4",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "convert-array-to-csv": "^2.0.0",
+    "csv-parse": "^5.6.0"
+  }
+}
